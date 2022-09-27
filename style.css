@@ -54,7 +54,7 @@ gap: 330px;
 .main-text {
 width: 25%;
 display: flex;
-flex-flow: column wrap;
+flex-flow: column nowrap;
 justify-content: center;
 
 }
@@ -70,6 +70,10 @@ font-size: 18px;
 color: #e5e7eb;
 }
 
+button.button-1 {
+border-style: none;
+}
+
 .main-image {
 align-self: center;
 width: 466px;
@@ -77,6 +81,12 @@ height: 244px;
 }
 
 button {
+border-radius: 8px;
+padding-left: 32px;
+padding-right: 32px;
+padding-top: 8px;
+padding-bottom: 8px;
+font-size: 18px;   
 background-color: #3882f6;
 color: #f9faf8;
 }
@@ -96,7 +106,7 @@ align-self: center;
 }
 
 .box-container {
-height: 800px;
+margin-bottom: 72px;
 margin-top: 36px;
 display: flex;
 justify-content: center;
@@ -124,4 +134,85 @@ align-self: center;
 .box-text {
 display: flex;
 flex-flow: column wrap;
+}
+
+.quote-container {
+height: 400px;
+background-color: #e5e7eb;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+}
+
+.quote {
+max-width: 800px;
+}
+
+.quote-text {
+font-size: 36px;
+color: #1f2937;
+font-style: italic;
+font-weight: 300;
+}
+
+.quote-author {
+font-size: 24px;
+font-weight: bolder;
+display: flex;
+justify-content: flex-end;
+}
+
+.card-container {
+height: 200px;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+.card {
+width: 80%;
+height: 60%;
+border-radius: 0.5rem;
+background-color: #3882f6;
+display: flex;
+flex-direction: row;
+justify-content: center;
+gap: 400px;
+}
+
+.card-text {
+align-self: center;
+}
+
+.action {
+font-size: 24px;
+color: #f9faf8;
+
+} 
+
+.sign-up {
+color: #f9faf8;
+}
+
+.card-button {
+align-self: center;
+}
+
+button.button-2 {
+border-color: #f9faf8;
+border-style: double;
+}
+
+.footer {
+height: 80px;
+background-color: #1f2937;
+}
+
+.footer-text {
+height: 80px;
+color: #f9faf8;
+display: flex;
+justify-content: center;
+align-items: center;
 }
